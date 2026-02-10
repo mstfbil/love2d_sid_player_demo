@@ -45,7 +45,6 @@ lovesid.is_ntsc    = false
 
 lovesid.samples    = { {}, {}, {} }
 lovesid.freqs      = { 0, 0, 0 }
-lovesid.phases     = { 0, 0, 0 }
 
 local function getFrequency(channel)
     if channel < 1 or channel > 3 then return end
